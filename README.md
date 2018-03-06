@@ -1,2 +1,4 @@
 # ImageSampling
-Python Script to Sample Images from Video File
+This script takes videos from the provied folder and samples images to the respective folder.
+
+OpenCV is required.
