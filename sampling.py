@@ -6,7 +6,6 @@ sampling_rate = 4
 
 def sample_file(filename, start_image_name):
   vidcap = cv2.VideoCapture(filename)
-  vidcap.set(cv2.CAP_PROP_FPS, 30)
   success,image = vidcap.read()
   skip = 0
   count = start_image_name
